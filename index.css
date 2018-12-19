@@ -1,0 +1,43 @@
+body {
+	text-align: center;
+}
+
+a {
+	color: #666;
+	text-decoration: none;
+}
+
+table {
+	border-collapse: collapse;
+	width: 600px;
+	margin: 0 auto;
+}
+
+th,
+td {
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+/* 皮肤1样式 */
+table.pf1 thead {
+	background: purple;
+	color: #fff;
+}
+
+table.pf1 tbody {
+	background: plum;
+	color: #fff;
+}
+
+/* 皮肤2样式 */
+table.pf2 thead {
+	background: orangered;
+	color: gold;
+
+}
+
+table.pf2 tbody {
+	background: orange;
+	color: red;
+}
